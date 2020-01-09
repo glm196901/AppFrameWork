@@ -1,0 +1,83 @@
+.goToRegister {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 0 0 25px;
+  a {
+    color: #ffffff;
+  }
+}
+.login {
+  padding: 44px 15px;
+  line-height: 42px;
+  font-size: 30px;
+}
+.login-input {
+  padding: 0 33px;
+  &-phone {
+    margin-bottom: 14px;
+    &-tip {
+      height: 17px;
+      font-size: 12px;
+      padding: 4px 0;
+      line-height: 17px;
+    }
+    &-wrap {
+      background: #fff;
+      border-bottom: 0.02667rem solid #eee;
+      display: flex;
+      overflow: hidden;
+      &-number {
+        width: 100%;
+      }
+    }
+  }
+  &-pwd {
+    margin-bottom: 14px;
+    &-tip {
+      height: 17px;
+      font-size: 12px;
+      padding: 4px 0;
+      line-height: 17px;
+    }
+    &-wrap {
+      background: #fff;
+      border-bottom: 0.02667rem solid #eee;
+      display: flex;
+      overflow: hidden;
+      &-password {
+        width: 70%;
+      }
+
+      &-code {
+        text-align: center;
+        width: 30%;
+        line-height: 50px;
+        padding: 0 20px;
+        // i::before {
+        //   position: relative;
+        //   top: 2px;
+        // }
+      }
+    }
+  }
+  &-forgetwrap {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 0.53333rem;
+    a {
+      color: #333333;
+    }
+    &-forgetpwd {
+      margin-right: 0;
+    }
+  }
+}
+.login-button {
+  background: @brand-primary;
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.8rem;
+  margin: 33px;
+}

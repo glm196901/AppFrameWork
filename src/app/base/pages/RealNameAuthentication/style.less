@@ -1,0 +1,98 @@
+.login {
+  padding: 44px 15px;
+  line-height: 42px;
+  font-size: 30px;
+}
+.realName {
+  border: 1px solid #3333;
+  color: #ffffff;
+  margin: 0 20px;
+  border-radius: 10px;
+  padding: 20px 15px;
+  background: linear-gradient(#efd7a7, #dfb57f);
+  &-name {
+  }
+  &-verify {
+    margin-top: 15px;
+  }
+  &-idCard {
+    margin-top: 30px;
+    text-align: right;
+  }
+}
+.login-input {
+  padding: 0 20px;
+  &-phone {
+    margin-bottom: 14px;
+    &-tip {
+      height: 17px;
+      font-size: 12px;
+      padding: 4px 0;
+      line-height: 17px;
+    }
+    &-wrap {
+      background: #fff;
+      border-bottom: 0.02667rem solid #eee;
+      display: flex;
+      overflow: hidden;
+      &-number {
+        width: 70%;
+      }
+      &-delete {
+        width: 30%;
+        text-align: center;
+        line-height: 50px;
+      }
+    }
+  }
+  &-pwd {
+    margin-bottom: 14px;
+    &-tip {
+      height: 17px;
+      font-size: 12px;
+      padding: 4px 0;
+      line-height: 17px;
+    }
+    &-wrap {
+      background: #fff;
+      border-bottom: 0.02667rem solid #eee;
+      display: flex;
+      overflow: hidden;
+      &-password {
+        width: 70%;
+      }
+      &-delete {
+        width: 30%;
+        text-align: center;
+        line-height: 50px;
+      }
+      &-inputImgCode {
+        display: flex;
+        padding: 10px 5px;
+        justify-content: center;
+        align-items: center;
+        &-img {
+          width: 100px;
+        }
+      }
+    }
+  }
+  &-forgetwrap {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.37333rem;
+    line-height: 0.53333rem;
+    color: #395173;
+    &-forgetpwd {
+      margin-right: 0;
+    }
+  }
+  &-button {
+    background: @brand-primary;
+    font-size: 0.48rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    margin: 50px 0;
+  }
+}

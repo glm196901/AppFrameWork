@@ -1,0 +1,54 @@
+.page {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+.last {
+  position: absolute;
+  top: 22px;
+  right: 12px;
+  width: 40px;
+  height: 20px;
+}
+.next {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  height: 600px;
+}
+.lastStep {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &-space {
+    flex: 1;
+  }
+  &-goWhere {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      position: absolute;
+      height: 50px;
+      width: 160px;
+      border-radius: 5px;
+      &:first-child {
+        left: 20px;
+      }
+      &:last-child {
+        right: 20px;
+      }
+    }
+  }
+}

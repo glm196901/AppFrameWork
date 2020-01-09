@@ -1,0 +1,30 @@
+.password {
+  padding: 10px 15px;
+  background: #ffffff;
+  &-input {
+    display: flex;
+    padding: 5px 0;
+    :global {
+      .am-list {
+        width: 80%;
+      }
+      .am-list-line {
+        border-bottom: 1px solid rgba(221, 221, 221, 0.6);
+      }
+    }
+  }
+  &-show {
+    line-height: 50px;
+    margin-right: 0;
+    width: 20%;
+    text-align: center;
+  }
+}
+.login-button {
+  background: @brand-primary;
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  margin: 50px 25px;
+}

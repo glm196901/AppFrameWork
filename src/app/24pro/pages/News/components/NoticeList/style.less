@@ -1,0 +1,39 @@
+@bw-news-notice-list: bw-news-notice-list;
+
+.@{bw-news-notice-list} {
+  margin-top: 45px;
+  margin-bottom: 65px;
+  padding: 0 15px;
+  &-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ffffff;
+    &-time {
+      text-align: center;
+      font-size: 10px;
+      & span {
+        padding: 2px 10px;
+        background: #f0f0f0;
+        border-radius: 20px;
+      }
+    }
+    &-block {
+      background: #ffffff;
+      border-radius: 5px;
+      padding: 15px;
+
+      &-title {
+        font-weight: bold;
+      }
+      &-content {
+      }
+      & ul {
+        list-style: none;
+        padding: 0;
+        & li {
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}

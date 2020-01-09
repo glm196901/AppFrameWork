@@ -1,0 +1,142 @@
+.transaction-footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  &-1 {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: @brand-primary;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-2 {
+    flex: 2;
+    background: @up-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-3 {
+    flex: 2;
+    background: @down-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-modal {
+    text-align: left;
+    // padding: 15px 10px;
+    color: #000000;
+    & > div {
+      margin: 5px 10px;
+    }
+    &-title {
+      text-align: center;
+      margin-bottom: 30px !important;
+    }
+    &-price {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-lots {
+      &-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0;
+        & > div {
+          width: 20%;
+          margin-bottom: 5px;
+          padding-right: 5px;
+          box-sizing: border-box;
+        }
+      }
+    }
+    &-money-mode {
+      display: flex;
+      & > div {
+        display: flex;
+        align-items: center;
+      }
+      &-list {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        & > div {
+          margin-right: 15px;
+        }
+      }
+    }
+    &-down {
+      &-list {
+        display: flex;
+        margin: 15px 0;
+        justify-content: space-between;
+      }
+    }
+    &-up {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-service {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-submit {
+      margin-bottom: 10px;
+    }
+  }
+}
+.up {
+  background: @up-color;
+  color: #ffffff;
+  :global {
+    .am-button {
+      background: @up-color;
+      color: #ffffff;
+    }
+  }
+}
+.down {
+  background: @down-color;
+  color: #ffffff;
+  :global {
+    .am-button {
+      background: @down-color;
+      color: #ffffff;
+    }
+  }
+}
+.modal-body {
+  :global {
+    .am-modal-content {
+      padding: 15px;
+      padding-bottom: 0;
+      height: calc(100% - 30px);
+    }
+  }
+}
+:global {
+  .am-modal-transparent {
+    max-width: 90%;
+    min-width: 7.2rem;
+    width: auto;
+  }
+}

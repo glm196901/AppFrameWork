@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<% if (process.env.mode === 'mobile') { %>
+<html style="font-size:10vw">
+<%} %>
+
+<% if (process.env.mode === 'pc') { %>
+<html>
+<%} %>
+
+<head>
+
+  <title>%title%</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <link rel="icon" href="%PUBLIC_URL%/<%= process.env.favicon %>" />
+
+  <!-- 预解析CDN -->
+  <% if (process.env.prefetchDNS) { %>
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <link rel="preconnect" href="<%= process.env.prefetchDNS %>" crossorigin />
+  <link rel="dns-prefetch" href="<%= process.env.prefetchDNS %>" />
+  <% } %>
+  <!-- css -->
+  <% process.env.css.forEach(function(item){%>
+  <link rel="stylesheet" type="text/css" href="<%= item %>" />
+  <% }) %>
+  <!-- js -->
+  <% process.env.js.forEach(function(item){%>
+  <link rel="stylesheet" type="text/css" href="<%= item %>" />
+  <% }) %>
+
+
+  <style>
+    html,
+    body,
+    #root {
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      margin: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  %loading%
+  <div id="root"></div>
+  <% if(process.env.NODE_ENV === 'production'){ %>
+  <script src="./dll/bundle.dll.js"></script>
+  <% } %>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+// 银行卡选择弹框
+:global {
+  .am-modal-transparent {
+    & ul {
+      height: 100px;
+      overflow: auto;
+    }
+  }
+}
+.withdrawInfo {
+  padding: 15px;
+  &-card {
+    background: #383838;
+    font-size: 14px;
+    color: #f2d4bc;
+    height: 164px;
+    border-radius: 5px;
+    &-top {
+      text-align: left;
+      padding: 0.26667rem 0 0;
+      &-name {
+        color: #825b24;
+        height: 45px;
+        margin: 0 10px;
+        background: linear-gradient(#efd7a7, #dfb57f);
+        font-size: 18px;
+        line-height: 44px;
+        padding-left: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    }
+    &-deposit {
+      margin: 0 10px;
+      border-bottom: 1px solid #4c4c4c;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 50px;
+      div {
+        margin: 2px 0;
+      }
+    }
+    &-introduce {
+      display: flex;
+      height: 50px;
+      margin: 5px 0;
+      &-info {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  &-button {
+    background: @brand-primary;
+    font-size: 0.48rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    margin: 50px 0;
+  }
+}
+.withdrawModal {
+  :global {
+    .am-modal-close-x {
+      top: 15px;
+      position: relative;
+    }
+    .am-modal-header {
+      padding: 0;
+      height: 40px;
+
+      div {
+        line-height: 40px;
+      }
+    }
+    .am-modal-body {
+      padding: 10px;
+    }
+  }
+
+  &-modalTitle {
+    padding: 10px 15px;
+  }
+  &-bankCardBox {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    &-leftTitle {
+      width: 27%;
+      text-align: left;
+      margin-right: 0.26667rem;
+      color: #1e1e1e;
+    }
+    &-rightContent {
+      width: 70%;
+      text-align: left;
+    }
+  }
+  &-passwordBox {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    &-leftTitle {
+      width: 27%;
+      text-align: left;
+      margin-right: 0.26667rem;
+      color: #1e1e1e;
+    }
+    input {
+      background: none;
+      outline: none;
+      border: 0px;
+    }
+
+    &-rightContent {
+      width: 70%;
+    }
+    &-forgotButtonBox {
+      background: #f0f0f0;
+      display: inline;
+      height: 20px;
+      line-height: 20px;
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 15px;
+      margin-left: 5px;
+      margin-top: 5px;
+      a {
+        color: #1e1e1e;
+      }
+    }
+  }
+
+  &-amountBox {
+    // display: flex;
+    height: 80px;
+    line-height: 40px;
+    &-leftTitle {
+      width: 27%;
+      text-align: left;
+      margin-right: 0.26667rem;
+      color: #1e1e1e;
+    }
+    input {
+      background: none;
+      outline: none;
+      border: 0px;
+    }
+    &-rightContent {
+      width: 70%;
+    }
+    &-amountInputBox {
+      display: flex;
+      height: 40px;
+      line-height: 40px;
+      &-symbol {
+        font-size: 22px;
+        color: #1e1e1e;
+      }
+    }
+  }
+  &-availableAmountBox {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    &-amountText {
+      margin-left: 10px;
+    }
+  }
+  &-submitButton {
+    background: @brand-primary;
+    color: #fff;
+  }
+  p {
+    text-align: left;
+    color: #1e1e1e;
+    margin-top: 10px;
+  }
+  &-tips {
+    list-style: none;
+    font-size: 12px;
+    padding-left: 0;
+    text-align: left;
+    li {
+      margin-top: 10px;
+      font-size: 12px;
+      background: #ffffff;
+    }
+  }
+}
+.checkBankModal {
+  &-checkBank {
+    padding: 0;
+    &-checked {
+      background: @brand-primary;
+      color: #ffffff;
+    }
+    div {
+      display: flex;
+    }
+  }
+}

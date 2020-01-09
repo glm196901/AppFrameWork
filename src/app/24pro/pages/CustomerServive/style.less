@@ -1,0 +1,102 @@
+.cs-context {
+  padding-top: 70px;
+  &-headerTitle {
+    position: absolute;
+    font-size: 15px;
+  }
+  &-up {
+    height: 100%;
+    padding-bottom: 20%;
+    &-cs div {
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+      padding-top: 5px;
+      position: relative;
+      // flex: 1;
+      justify-content: flex-start;
+      img {
+        widows: 40px;
+        height: 40px;
+      }
+      div {
+        font-size: 16px;
+        max-width: 215px;
+        position: relative;
+        padding: 10px;
+        background: #eeeeee;
+        line-height: 22px;
+        margin-left: 10px;
+        border-radius: 5px;
+        word-break: break-word;
+      }
+    }
+    &-user div {
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+      padding-top: 5px;
+      justify-content: flex-end;
+      // flex: 1;
+      position: relative;
+      img {
+        widows: 40px;
+        height: 40px;
+      }
+      div {
+        font-size: 16px;
+        max-width: 215px;
+        position: relative;
+        padding: 10px;
+        box-shadow: 0 0px 1px #6a6d71;
+        background: #eeeeee;
+        line-height: 22px;
+        margin-right: 10px;
+        border-radius: 5px;
+        word-break: break-word;
+      }
+    }
+  }
+  &-down {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -1px #ccc;
+    height: 50px;
+    align-items: center;
+    overflow: hidden;
+    &-input {
+      width: 80%;
+      padding: 0 5px;
+      height: 100%;
+      outline: none;
+      border: 0px;
+    }
+    &-submit {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: @brand-primary;
+      columns: #ffffff;
+      border-left: 1px solid #cccccc;
+    }
+  }
+}
+
+// .cs-wrap{
+//   height:100%
+// }
+// .cs-input{
+//   display: flex;
+//   position: fixed;
+//   bottom: 0;
+//   &-content{
+//     width:80%
+//   }
+//   &-submit{
+//     width:20%
+//   }
+// }

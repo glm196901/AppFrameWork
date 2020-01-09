@@ -1,0 +1,60 @@
+.bw-nav-layout {
+  height: 50px;
+  box-shadow: 0 0 5px 0 #eeeeee;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 12px;
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  & .default-color {
+    font-weight: 400;
+    color: rgba(142, 142, 147, 1);
+  }
+  & .active-color {
+    color: @brand-primary;
+  }
+  & .bw-nav-icons {
+    height: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+  }
+  & .bw-nav-0 {
+    font-size: 20px;
+  }
+  & .bw-nav-1 {
+    font-size: 20px;
+  }
+  & .bw-nav-2 {
+    font-size: 20px;
+  }
+  & .bw-nav-3 {
+    font-size: 18px;
+  }
+  & .bw-nav-4 {
+    font-size: 19px;
+  }
+  // & svg {
+  //   height: 20px;
+  //   width: 20px;
+  // }
+  // & .bw-nav-icons-2 img {
+  // width: 52px;
+  // height: 52px;
+  // position: absolute;
+  // top: calc(-52px / 2);
+  // left: 0;
+  // right: 0;
+  // margin: auto;
+  // }
+}
+:export {
+  brandPrimary: @brand-primary;
+}

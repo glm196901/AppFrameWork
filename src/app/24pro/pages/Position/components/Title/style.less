@@ -1,0 +1,42 @@
+@position-title: position-title;
+
+.@{position-title} {
+  display: flex;
+  justify-content: space-between;
+  background: @brand-primary;
+  align-items: center;
+  color: #ffffff;
+  height: 85px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 15px 25px;
+  transition: all 1s;
+  &-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    &-title {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(236, 233, 232, 1);
+      line-height: 16px;
+    }
+    &-moeny {
+      font-size: 30px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      line-height: 24px;
+    }
+  }
+}
+// .up-color {
+//   color: @up-color;
+// }
+// .down-color {
+//   color: @down-color;
+// }
+:export {
+  upColor: @up-color;
+  downColor: @down-color;
+}

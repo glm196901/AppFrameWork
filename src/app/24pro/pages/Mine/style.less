@@ -1,0 +1,175 @@
+.mine {
+  display: flex;
+  flex-direction: column;
+  // height:
+  &-up {
+    background: rgba(231, 186, 129, 0.3);
+    color: @color-text-base-inverse;
+    padding: 20px 20px;
+    &-profile {
+      height: 78px;
+      &-relect {
+        display: flex;
+        padding: 20px 0;
+        color: #333333;
+        &-profile {
+          width: 40px;
+          margin-right: 10px;
+        }
+        &-login {
+          font-size: 16px;
+          line-height: 20px;
+          padding: 12px 0;
+          color: #333333;
+        }
+        &-lean {
+        }
+        &-register {
+          font-size: 16px;
+          line-height: 20px;
+          padding: 12px 0;
+          color: #333333;
+        }
+        &-logout {
+          font-size: 12px;
+          line-height: 20px;
+          padding: 12px 0;
+          margin-left: 30px;
+          color: @ghost-button-color;
+        }
+      }
+    }
+    &-fund {
+      height: 180px;
+      width: 336px;
+      margin: 0 auto;
+      background: #3e3e3e;
+      border-radius: 5px;
+      &-sum {
+        display: block;
+        color: #ffffff;
+        padding: 10px 0 0 10px;
+        &-assetMoneyShow {
+          padding: 10px 10px;
+          i::before {
+            position: relative;
+            top: 2px;
+          }
+        }
+      }
+      &-left {
+        display: flex;
+        color: #ffffff;
+        padding: 0.266667rem 0;
+        // border-bottom: 1px solid #ddd;
+
+        &-depost {
+          padding: 10px 10px;
+          width: 50%;
+          text-align: center;
+          div {
+            padding: 5px 0;
+          }
+        }
+        &-mockDeposit {
+          padding: 10px 10px;
+          span {
+            margin-right: 10px;
+          }
+        }
+      }
+      &-line::after {
+        content: '';
+        position: absolute;
+        display: block;
+        // margin-top: 5px;
+        right: 10%;
+        height: 0.5px;
+        width: 80%;
+        background-color: rgba(221, 221, 221, 0.2);
+      }
+      &-right {
+        display: flex;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        &-charge {
+          width: 100px;
+          height: 30px;
+          background: @ghost-button-color;
+          color: #ffffff;
+          border: 1px solid @ghost-button-color;
+          line-height: 32px;
+          border-radius: 3px;
+          margin-bottom: 10px;
+          margin: 0 35px;
+          text-align: center;
+        }
+        &-withdraw {
+          width: 100px;
+          height: 30px;
+          color: @ghost-button-color;
+          border: 1px solid @ghost-button-color;
+          text-align: center;
+          line-height: 32px;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+
+  &-down {
+    background: none;
+    flex: 1;
+    padding-bottom: 90px;
+    &-option:first-child {
+      margin-top: 10px;
+    }
+    &-option {
+      padding: 0 0 10px;
+      height: 45px;
+      line-height: 45px;
+      color: #3a3a3a;
+      &-wrap {
+        display: flex;
+        margin-left: 20px;
+        height: 60px;
+        line-height: 60px;
+        &-icon {
+          margin-right: 10px;
+          &-i {
+            font-size: 20px;
+          }
+          & img {
+            margin: 0 auto;
+            height: 18px;
+            width: 18px;
+          }
+        }
+        &-title {
+          // margin-left:30px
+        }
+        &-description {
+          margin-left: auto;
+          margin-right: 20px;
+          color: @ghost-button-color;
+        }
+        &-triangle {
+          // margin-left: auto;
+          margin-right: 15px;
+        }
+      }
+
+      &-line {
+        display: flex;
+        justify-content: flex-end;
+        height: 0;
+        & div {
+          width: 323px;
+          height: 1px;
+          background: #ffffff;
+        }
+      }
+    }
+  }
+}

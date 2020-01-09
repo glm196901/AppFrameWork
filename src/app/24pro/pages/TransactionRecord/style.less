@@ -1,0 +1,115 @@
+.mine {
+  display: flex;
+  flex-direction: column;
+  // height:
+  &-up {
+    background: @brand-primary;
+    height: 222px;
+    color: @color-text-base-inverse;
+    &-profile {
+      height: 78px;
+      &-relect {
+        display: flex;
+        padding: 20px 20px;
+        .mine-up-profile-relect-login {
+          color: #ffffff;
+        }
+        &-lean {
+        }
+        &-register {
+        }
+      }
+    }
+    &-fund {
+      display: flex;
+      height: 130px;
+      width: 336px;
+      margin: 0 auto;
+      background: #ffffff;
+      &-left {
+        width: 168px;
+        color: #000000;
+        padding: 10px 10px;
+        &-money {
+          padding: 10px 10px;
+        }
+        &-depost {
+          padding: 10px 10px;
+        }
+        &-mockDeposit {
+          padding: 10px 10px;
+        }
+      }
+      &-right {
+        width: 168px;
+        color: #ffffff;
+        padding: 50px 10px 10px;
+        text-align: center;
+        &-charge {
+          width: 67px;
+          height: 25px;
+          background: @brand-primary;
+          color: #ffffff;
+          border: 1px solid @brand-primary;
+          border-radius: 3px;
+          line-height: 25px;
+          margin-bottom: 10px;
+          margin-left: 70px;
+        }
+        &-withdraw {
+          width: 67px;
+          height: 25px;
+          color: @brand-primary;
+          border: 1px solid @brand-primary;
+          border-radius: 3px;
+          line-height: 25px;
+          margin-left: 70px;
+        }
+      }
+    }
+  }
+
+  &-down {
+    background: none;
+    flex: 1;
+    &-option:first-child {
+      margin-top: 10px;
+    }
+    &-option {
+      padding: 0 0 10px;
+      height: 45px;
+      line-height: 45px;
+      color: #3a3a3a;
+      &-wrap {
+        display: flex;
+        margin-left: 20px;
+        &-icon {
+          margin-right: 10px;
+          & img {
+            margin: 0 auto;
+            height: 18px;
+            width: 18px;
+          }
+        }
+        &-title {
+          // margin-left:30px
+        }
+        &-triangle {
+          margin-left: auto;
+          margin-right: 20px;
+        }
+      }
+
+      &-line {
+        display: flex;
+        justify-content: flex-end;
+        height: 0;
+        & div {
+          width: 323px;
+          height: 1px;
+          background: #ffffff;
+        }
+      }
+    }
+  }
+}

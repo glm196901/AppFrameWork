@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="294px" height="121px" viewBox="0 0 294 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>中国工商银行 copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.26857384%" y1="42.3079324%" x2="134.750118%" y2="61.0559408%" id="linearGradient-1">
+            <stop stop-color="#FF4545" offset="0%"></stop>
+            <stop stop-color="#F72525" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="283" height="111" rx="4"></rect>
+        <filter x="-3.0%" y="-5.9%" width="106.0%" height="115.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0757755888 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="0 0.148476672 139.979888 0.148476672 139.979888 115.157104 0 115.157104"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="中国工商银行-copy-8" transform="translate(5.000000, 2.000000)">
+            <g id="分组-24" transform="translate(0.500000, 0.007886)">
+                <g id="分组-11" transform="translate(0.042398, 0.914062)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Group-6" mask="url(#mask-3)">
+                        <g transform="translate(136.000000, -3.000000)">
+                            <path d="M85.0747587,80.8784389 L54.8646332,80.8784389 C53.3177992,80.8784389 52.0685384,82.0787228 52.0685384,83.6223346 L52.0685384,112.460323 C52.0685384,113.941778 53.3177992,115.20344 54.8646332,115.20344 L85.0747587,115.20344 C86.6368229,115.20344 87.9020948,113.941778 87.9020948,112.460323 L87.9020948,83.6223346 C87.9020948,82.0947006 86.6215927,80.8784389 85.0747587,80.8784389" id="Fill-1" fill="#FFFFFF" opacity="0.200000003"></path>
+                            <g id="Group-5" stroke-width="1" fill="none" transform="translate(0.000000, 0.046375)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-4" opacity="0.200000003"></g>
+                                <path d="M83.8719303,3.32844949 C82.7628647,1.41111294 80.950675,0.148476672 78.7799916,0.148476672 L61.2067699,0.148476672 C58.9886388,0.148476672 57.2076904,1.41111294 56.0828089,3.32844949 L0.785737796,109.670092 C-1.05769317,113.099864 0.50437099,115.157104 3.78490098,115.157104 L21.3116513,115.157104 C23.8576206,115.157104 24.8262957,114.502599 26.1067978,112.149185 L69.9697545,26.6330518 L113.863953,112.149185 C115.160466,114.518576 116.11313,115.157104 118.659099,115.157104 L136.185849,115.157104 C139.450368,115.157104 141.043674,113.099864 139.200047,109.670092 L83.8719303,3.32844949 Z" id="Fill-3" fill="#FFFFFF" opacity="0.200000003" mask="url(#mask-6)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <circle id="Oval" fill="#FFFFFF" mask="url(#mask-3)" cx="34.5" cy="31.5" r="13.5"></circle>
+                    <g id="Group-6" mask="url(#mask-3)">
+                        <g transform="translate(24.000000, 21.000000)">
+                            <path d="M12.6054904,12 L8.39015034,12 C8.17431438,12 8,12.1748411 8,12.3996935 L8,16.6004201 C8,16.8162182 8.17431438,17 8.39015034,17 L12.6054904,17 C12.8234515,17 13,16.8162182 13,16.6004201 L13,12.3996935 C13,12.1771685 12.8213264,12 12.6054904,12" id="Fill-1" fill="#FF3104"></path>
+                            <g id="Group-5" stroke-width="1" fill="none">
+                                <path d="M12.5807895,0.490530405 C12.4144297,0.207962838 12.1426013,0.0218817568 11.8169987,0.0218817568 L9.18101548,0.0218817568 C8.84829582,0.0218817568 8.58115356,0.207962838 8.41242134,0.490530405 L0.117860669,16.1626351 C-0.158653975,16.668098 0.0756556485,16.9712838 0.567735146,16.9712838 L3.1967477,16.9712838 C3.5786431,16.9712838 3.72394435,16.874826 3.91601967,16.5279916 L10.4954632,3.9250473 L17.0795929,16.5279916 C17.2740699,16.8771807 17.4169695,16.9712838 17.7988649,16.9712838 L20.4278774,16.9712838 C20.9175552,16.9712838 21.156551,16.668098 20.8800071,16.1626351 L12.5807895,0.490530405 Z" id="Fill-3" fill="#FF3104"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <text id="平安银行" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" letter-spacing="-0.4341177" fill="#FFFFFF">
+                    <tspan x="52.0097295" y="39">平安银行</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

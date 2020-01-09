@@ -1,0 +1,33 @@
+.bw-home-announcement-container {
+  display: flex;
+  align-items: center;
+  background-color: @fill-base;
+  padding: 15px;
+  font-size: 12px;
+  position: relative;
+  top: -49px;
+  width: 85%;
+  z-index: 10;
+  margin: 0 auto;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  & img {
+    height: 13px;
+    margin-right: 10px;
+  }
+  &-more {
+    width: 50px;
+    text-align: center;
+    border-left: 1px solid rgba(162, 162, 162, 1);
+    color: rgba(162, 162, 162, 1);
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+  }
+  :global {
+    .v-item {
+      color: #323232;
+    }
+  }
+}

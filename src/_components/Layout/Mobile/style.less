@@ -1,0 +1,23 @@
+.bw-layout {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  & > .bw-body {
+    height: 100%;
+    width: 100%;
+  }
+  & > .bw-bottom-nav-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+  }
+  & > .bw-nav-show {
+    transform: translateY(0);
+  }
+  & > .bw-nav-hidden {
+    transform: translateY(150%);
+  }
+}

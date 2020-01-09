@@ -1,0 +1,86 @@
+.login {
+  padding: 44px 15px;
+  line-height: 42px;
+  font-size: 30px;
+}
+.login-input {
+  padding: 0 33px;
+  &-phone {
+    margin-bottom: 14px;
+    &-tip {
+      height: 17px;
+      font-size: 12px;
+      padding: 4px 0;
+      line-height: 17px;
+    }
+    &-wrap {
+      display: flex;
+      overflow: hidden;
+      background: #ffffff;
+      &-number {
+        width: 70%;
+      }
+      &-delete {
+        width: 30%;
+        line-height: 50px;
+        text-align: center;
+      }
+    }
+  }
+  &-pwd {
+    margin-bottom: 14px;
+    &-tip {
+      height: 17px;
+      font-size: 12px;
+      padding: 4px 0;
+      line-height: 17px;
+    }
+    &-wrap {
+      background: #fff;
+      border-bottom: 0.02667rem solid #eee;
+      display: flex;
+      overflow: hidden;
+      &-inputImgCode {
+        display: flex;
+        padding: 10px 5px;
+        justify-content: center;
+        align-items: center;
+        &-img {
+          width: 100px;
+        }
+      }
+      &-password {
+        width: 70%;
+      }
+      &-delete {
+        width: 30%;
+        line-height: 50px;
+        text-align: center;
+      }
+      &-code {
+        width: 30%;
+        line-height: 50px;
+        text-align: center;
+      }
+    }
+  }
+  &-forgetwrap {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.37333rem;
+    line-height: 0.53333rem;
+    color: #395173;
+    &-forgetpwd {
+      margin-right: 0;
+    }
+  }
+}
+
+.login-button {
+  background: @brand-primary;
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.8rem;
+  margin: 1.6rem 1.06667rem 0;
+}

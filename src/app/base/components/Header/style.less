@@ -1,0 +1,28 @@
+.header {
+  height: 45px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  transition: all 1s;
+  & > div {
+    width: 100%;
+    overflow: hidden;
+  }
+  & .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 550px;
+  }
+  & .right-icon {
+    text-align: right;
+  }
+}
+:export {
+  bgColor: @brand-primary;
+  color: #fff;
+}

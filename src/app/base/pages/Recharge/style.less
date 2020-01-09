@@ -1,0 +1,23 @@
+.recharge {
+  display: flex;
+  flex-direction: column;
+  :global {
+    .am-list-item img {
+      height: 50px;
+      width: 50px;
+    }
+    .am-list-item .am-list-line .am-list-brief {
+      white-space: normal;
+      font-size: 10px;
+    }
+  }
+  &-issue {
+    text-align: center;
+    margin: 15px 0;
+  }
+  &-itemClass {
+    div:first-child > img {
+      width: 40px;
+    }
+  }
+}

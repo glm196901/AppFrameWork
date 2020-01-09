@@ -1,0 +1,46 @@
+@position-list: position-list;
+
+.@{position-list} {
+  padding: 0 15px;
+  font-size: 10px;
+  padding-bottom: 15px;
+  color: #8e8e93;
+  &-item {
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 15px 0;
+    box-shadow: 0 0 1px #cccccc;
+    &-top {
+      padding: 10px;
+      & > div {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        & span:nth-child(1) {
+          width: 200px;
+        }
+        & span:nth-child(2) {
+          flex: 1;
+        }
+      }
+    }
+    &-bottom {
+      display: flex;
+      border-top: 1px solid #eeeeee;
+      & span {
+        padding: 15px;
+        width: 50%;
+        text-align: center;
+      }
+      & span:nth-child(1) {
+        border-right: 1px solid #eeeeee;
+      }
+    }
+  }
+}
+.up-color {
+  color: @up-color;
+}
+.down-color {
+  color: @down-color;
+}

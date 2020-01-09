@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="293px" height="121px" viewBox="0 0 293 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.26857384%" y1="42.3079324%" x2="134.750118%" y2="61.0559408%" id="linearGradient-1">
+            <stop stop-color="#3F82F5" offset="0%"></stop>
+            <stop stop-color="#2538F7" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="283" height="111" rx="4"></rect>
+        <filter x="-3.0%" y="-5.9%" width="106.0%" height="115.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0757755888 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14" transform="translate(5.000000, 3.000000)">
+            <g id="Fill-1-Copy-7">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M227.749882,8.04071381 C219.250477,8.04071381 210.999888,10.2749794 204.249878,14.7422744 L181.500475,29.3869746 L181.500475,-21 L141,12.2601462 L141,75.3068603 C141,93.9225123 153.499773,109.808586 170.74989,115.518078 L178.500355,118 C162.500132,110.305135 152.000231,94.6677482 152.000231,76.7958899 C152.000231,50.9817161 173.999864,30.3804852 201.000112,30.3804852 C226.250134,30.3804852 247.000702,48.4993819 249.750345,71.5835651 L221.499996,71.5835651 C219,62.3998764 210.500595,55.6981098 200.499988,55.6981098 C188.500339,55.6981098 178.750002,65.3785538 178.750002,77.0443706 C178.750002,88.7103935 188.500339,98.1423568 200.499988,98.1423568 C211.750696,98.1423568 220.750225,90.1996291 222.00012,79.5267048 L249.750345,79.5267048 C249.250014,88.958256 245.500124,97.3977389 240.000008,104.34778 C240.000008,104.34778 257.000479,84.7388236 262.750241,75.8036156 C268.00071,67.8606819 271,59.421199 271,49.9894417 C271,27.1539452 251.500363,8.04071381 227.749882,8.04071381" id="Fill-1" fill="#FFFFFF" opacity="0.200000003" mask="url(#mask-3)"></path>
+            </g>
+            <circle id="Oval-Copy-7" fill="#FFFFFF" cx="34.5" cy="31.5" r="13.5"></circle>
+            <path d="M34.244213,24.7374085 L30.9193002,27.0552748 L30.9193002,21 L25,26.2641958 L25,34.3231703 C25,37.2695325 26.8268898,39.7838751 29.3480609,40.6875357 L30.4808211,41.0803579 C28.1423269,39.8624656 26.6077261,37.3874835 26.6077261,34.5588441 C26.6077261,30.4731475 29.8230571,27.212521 33.7692471,27.212521 C37.4596349,27.212521 40.4924103,30.0802601 40.8942812,33.7338718 L36.765384,33.7338718 C36.4,32.2803383 35.1577792,31.2196271 33.6961521,31.2196271 C31.9423573,31.2196271 30.517308,32.7517837 30.517308,34.598172 C30.517308,36.4445928 31.9423573,37.9374216 33.6961521,37.9374216 C35.3404864,37.9374216 36.6558022,36.6802992 36.838479,34.9910594 L40.8942812,34.9910594 C40.8211559,36.4838229 40.273095,37.8195684 39.4692319,38.9195749 C39.4692319,38.9195749 41.9539161,35.8159991 42.7942661,34.4017935 C43.5616423,33.1446385 44,31.808893 44,30.3160969 C44,26.7018456 41.1500531,23.6767299 37.6788289,23.6767299 C36.4366082,23.6767299 35.2307529,24.0303547 34.244213,24.7374085 Z" id="Fill-1" fill="#2B4CF6"></path>
+            <text id="交通银行" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" letter-spacing="-0.4341177" fill="#FFFFFF">
+                <tspan x="52" y="38">交通银行</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

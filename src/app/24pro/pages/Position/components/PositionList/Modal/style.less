@@ -1,0 +1,55 @@
+:global {
+  .am-slider-wrapper {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+.modal-body {
+  font-size: 10px;
+  padding-bottom: 15px;
+  & > div:nth-child(1) {
+    text-align: left;
+  }
+  & > div:nth-child(2) {
+    text-align: left;
+  }
+  &-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-slider {
+    display: flex;
+    &-add {
+      bottom: 10px;
+      text-align: center;
+      position: relative;
+      line-height: 20px;
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      background: #e7ba81;
+      border-radius: 5px;
+      color: #fff;
+    }
+    &-sub {
+      bottom: 10px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      position: relative;
+      line-height: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      background: #e7ba81;
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+}
+& .up-color {
+  color: @up-color;
+}
+& .down-color {
+  color: @down-color;
+}

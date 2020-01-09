@@ -1,0 +1,31 @@
+.rules {
+  padding-top: 45px;
+  &-table {
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    div:nth-child(2n + 1) span:nth-child(2n + 1) {
+      background: #f1f5fc;
+    }
+    & > div {
+      width: 100%;
+      display: flex;
+      & span {
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        padding: 10px;
+      }
+      & span:nth-child(1) {
+        width: 100px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      & span:nth-child(2) {
+        flex: 1;
+      }
+    }
+  }
+}
